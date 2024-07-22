@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "nc-de-demo-terraform-state"
+    bucket = "nc-de-lg-monitoring-lecture-example"
     key = "de-monitor-alert/terraform.tfstate"
     region = "eu-west-2"
   }
